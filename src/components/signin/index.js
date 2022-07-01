@@ -27,7 +27,7 @@ function Signin() {
     }, [auth]);
 
     return (
-        <div class="login-area">
+        <div class="login-area" style={{width: '280px'}}>
             <div class="form-area">
                 <form onSubmit={handleSubmit}>
                     <div class="form-content">

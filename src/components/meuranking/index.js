@@ -34,16 +34,16 @@ function MeuRanking() {
                 </div>
             </div>
             <div class="meu-ranking-content">
-                <div class="meu-ranking-time text">{user.timeGame}</div>
+                {/*<div class="meu-ranking-time text">{user.timeGame}</div>*/}
                 <div class="meu-ranking-score text">{user.score}</div>
             </div>
             <div class="meu-ranking-conquistas">
-                {
+                {/*
                     conquistas &&
                     conquistas.map((item, index) => (
                         <ConquistaItem key={index} item={item} />
                     ))
-                }
+                */}
                 
 
             </div>

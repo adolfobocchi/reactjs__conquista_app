@@ -1,11 +1,15 @@
 
 .login-area {
-    width: 280px;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
     height: auto;
+    padding: 8px;
 }
 
 .form-area {
     display: flex;
+    width: 100%;
     flex-direction: column;
 }
 

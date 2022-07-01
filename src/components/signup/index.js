@@ -27,7 +27,7 @@ function Signup(props) {
                         </div>
                         <div class="input-area">
                             <label for="avatar">Avatar</label>
-                            <input type="file" name="avatar" id="avatar" />
+                            <input type="text" placeholder='Imagem gerada no gravatar' disabled />
                         </div>
                         <div class="input-area">
                             <label for="nick">Nick</label>

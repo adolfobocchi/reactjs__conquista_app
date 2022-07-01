@@ -14,12 +14,12 @@ function RankingItem(props) {
             <div class="item-content">
                 <div class="item-score">{props.item.score}</div>
                 <div class="item-conquistas">
-                {
+                {/*
                     props.item.conquistas &&
                     props.item.conquistas.map((item, index) => (
                         <img src={require(`../../assets/images/icons/${item.img_url}.png`) } alt=""/>
                     ))
-                }
+                */}
                 </div>
             </div>
         </div>
