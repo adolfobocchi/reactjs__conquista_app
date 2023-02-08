@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const Api = axios.create({
-    baseURL: 'https://frozen-shore-49283.herokuapp.com',
+    baseURL: 'https://tapgameapi.azurewebsites.net/',
     headers: {
         'Content-Type': 'application/json'
     },
